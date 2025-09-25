@@ -6,4 +6,4 @@
 <img  style="width:50px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
 
 <h2>Veja aqui:</h2>
-<a href="https://theufaria.github.io/Recria-o-post-Instagram/" target="_blank">https://theufaria.github.io/Recria-o-post-Instagram/</a>
+<a href="https://theufaria.github.io/Recria-o-post-Instagram/" target="_blank">Link</a>
