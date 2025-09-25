@@ -487,38 +487,3 @@ a {
     height: 10px;
   }
 }
-
-.contentSettings {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none;
-  height: 100%;
-}
-
-#settingsWindow {
-  position: absolute;
-  top: 18%;
-  left: 43%;
-  width: 200px;
-  height: 300px;
-  background-color: #303030;
-  z-index: 10;
-}
-
-.itemSettings {
-  height: 20%;
-  border-bottom: 1px solid #404040;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  button {
-    background-color: inherit;
-    border: 0;
-    font-size: 1.2rem;
-    margin-left: 5px;
-    color: #ddd;
-  }
-}

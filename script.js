@@ -155,25 +155,3 @@ function verificarComentario() {
     btnCommentSend.classList.remove("opacity1", "pointer")
   }
 }
-
-const btnSettingsInPost = document.querySelector(".settingsInPost");
-const settingsWindow = document.querySelector("#settingsWindow");
-const btnIntoSettings = Array.from(document.querySelectorAll(".settingsInPost .pointer"));
-
-btnIntoSettings.map((e) => e.addEventListener("click", () => {
-  enterSettingsWindow();
-}))
-btnSettingsInPost.addEventListener("click", () => {
-  enterSettingsWindow();
-})
-const btnExitSettings = document.querySelector("#exitSettings");
-
-btnExitSettings.addEventListener('click', () => {
-  settingsWindow.classList.add("hide");
-  body.classList.remove("overlay", "overflowHide");
-})
-
-function enterSettingsWindow() {
-  settingsWindow.classList.remove("hide")
-  body.classList.add("overlay", 'overflowHide')
-}
